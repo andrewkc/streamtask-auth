@@ -68,6 +68,7 @@ class PermissionAction(db.Model):
     def __repr__(self):
         return '<PermissionAction {}-{}>'.format(self.id_permission, self.id_action)
 
+
 class UserRol(db.Model):
     __tablename__ = 'user_rol'
     __table_args__ = {'schema': 'authentication'}
